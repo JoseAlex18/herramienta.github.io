@@ -1,0 +1,261 @@
+/*body {
+    background-image: url('E.jpg'); /* Ruta de la imagen de fondo */
+    /*background-size: cover; /* Ajusta la imagen al tamaño de la ventana del navegador */
+    /*background-attachment: fixed; /* Fija la imagen de fondo al desplazarse */
+    /*background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    /*background-position: center center; /* Centra la imagen en la pantalla */
+    /*color: #fff; /* Color del texto en la página */
+/*}
+
+/* Estilos para el header, el logo y el menú (puedes personalizar estos estilos según tus necesidades) */
+header {
+    background-color: #354F52;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el campo de búsqueda */
+#buscar {
+    display: flex;
+    align-items: center;
+}
+
+#buscar form {
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#buscar input[type="text"] {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+#buscar button {
+    background-color: grey;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Estilos para el logo */
+#logo {
+    margin: 0; /* Elimina los márgenes por defecto */
+}
+
+#logo img {
+    width: 100px; /* Ancho del logotipo */
+    height: auto; /* Altura ajustada automáticamente */
+}
+
+
+/* Estilos para el menú de navegación */
+#menu ul {
+    list-style: none; /* Elimina las viñetas de la lista */
+    padding: 0; /* Elimina el espacio interno de la lista */
+    display: flex;
+    display: flex;
+    align-items: center;
+    }
+
+ #menu li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espacio entre elementos del menú */
+    }
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+    }
+
+#menu a:hover {
+    color: #ffa600;
+    text-decoration: underline; /* Subraya los enlaces al pasar el cursor por encima */
+}
+
+
+/* Estilos para la primera imagen de fondo */
+.background-image-1 {
+    background-image: url('E.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center center;
+    height: 100vh; /* Ajusta la altura de la sección a la altura de la ventana del navegador */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilos adicionales para el contenido si es necesario */
+.content {
+    padding: 20px; 
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+/* Agrega estilos adicionales para el contenido de la página si es necesario */
+.content {
+    padding: 100px;
+}
+
+
+/* Estilos para la segunda imagen de fondo */
+.background-image-2 {
+    background-image: url('I.jpg');
+    background-size: auto;
+    background-repeat: repeat;
+    /*background-attachment: fixed;*/
+    background-position: center center;
+    height: 50vh;
+}
+
+
+/* Estilos para la sección */
+.introduccion {
+    background-color: #52796F;
+    height: 40vh; /* Ajusta la altura de la sección a la altura de la ventana del navegador */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+.con {
+    text-align: center; /* Centra el contenido horizontalmente */
+    position: absolute;
+    /*top: 50%; /* Posiciona la parte superior de la sección en el centro vertical */
+    left: 50%; /* Posiciona la parte izquierda de la sección en el centro horizontal */
+    transform: translate(-50%, -50%); /* Centra la sección completamente */
+}
+
+.introduccion2 {
+    background-color: #52796F;
+    height: 40vh; /* Ajusta la altura de la sección a la altura de la ventana del navegador */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+.con2 {
+    text-align: center; /* Centra el contenido horizontalmente */
+    position: absolute;
+    /*top: 50%; /* Posiciona la parte superior de la sección en el centro vertical */
+    left: 50%; /* Posiciona la parte izquierda de la sección en el centro horizontal */
+    transform: translate(-50%, -50%); /* Centra la sección completamente */
+}
+
+/* Estilos para el contenido de la sección */
+h1 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+
+/* Estilos para la sección con dos columnas */
+.two-column-section {
+    display: flex; /* Utiliza flexbox para crear dos columnas */
+    justify-content: space-between; /* Distribuye el espacio entre las columnas */
+    align-items: center; /* Alinea verticalmente el contenido de las columnas */
+    padding: 20px; /* Espaciado interior de la sección */
+    background-color: #84A98C;
+}
+
+
+/* Estilos para las columnas */
+.column {
+    flex: 1; /* Distribuye el espacio de manera equitativa entre las dos columnas */
+    padding: 20px; /* Espaciado interior de las columnas */
+    text-align: center; /* Alinea el contenido al centro */
+}
+
+.image-container img {
+    max-width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+}
+
+h2 {
+    font-size: 1.5em; /* Tamaño del título h2 */
+    margin: 0; /* Elimina el margen superior e inferior del título */
+}
+
+p {
+    font-size: 1.1em; /* Tamaño del texto del párrafo */
+}
+
+
+.two-column-section2 {
+    display: flex; /* Utiliza flexbox para crear dos columnas */
+    justify-content: space-between; /* Distribuye el espacio entre las columnas */
+    align-items: center; /* Alinea verticalmente el contenido de las columnas */
+    padding: 20px; /* Espaciado interior de la sección */
+    background-color: #84A98C;
+}
+
+/* Estilos para las columnas */
+.column2 {
+    flex: 1; /* Distribuye el espacio de manera equitativa entre las dos columnas */
+    padding: 20px; /* Espaciado interior de las columnas */
+    text-align: center; /* Alinea el contenido al centro */
+}
+
+.image-container2 img {
+    max-width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+}
+
+h2 {
+    font-size: 1.5em; /* Tamaño del título h2 */
+    margin: 0; /* Elimina el margen superior e inferior del título */
+}
+
+p {
+    font-size: 1.1em; /* Tamaño del texto del párrafo */
+}
+
+
+
+
+
+ 

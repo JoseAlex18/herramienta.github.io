@@ -1,0 +1,215 @@
+header {
+    background-color: #354F52;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el campo de búsqueda */
+#buscar {
+    display: flex;
+    align-items: center;
+}
+
+#buscar form {
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#buscar input[type="text"] {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+#buscar button {
+    background-color: grey;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Estilos para el logo */
+#logo {
+    margin: 0; /* Elimina los márgenes por defecto */
+}
+
+#logo img {
+    width: 100px; /* Ancho del logotipo */
+    height: auto; /* Altura ajustada automáticamente */
+}
+
+
+/* Estilos para el menú de navegación */
+#menu ul {
+    list-style: none; /* Elimina las viñetas de la lista */
+    padding: 0; /* Elimina el espacio interno de la lista */
+    display: flex;
+    display: flex;
+    align-items: center;
+    }
+
+ #menu li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espacio entre elementos del menú */
+    }
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+    }
+
+#menu a:hover {
+    color: #ffa600;
+    text-decoration: underline; /* Subraya los enlaces al pasar el cursor por encima */
+}
+
+/*body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}*/
+
+.definicion {
+    background-color: #52796F;
+    height: 50vh; /* Ajusta la altura de la sección a la altura de la ventana del navegador */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.sintomas {
+    background-color: #52796F;
+    height: 140vh; /* Ajusta la altura de la sección a la altura de la ventana del navegador */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.causas {
+    background-color: #52796F;
+    height: 30vh; /* Ajusta la altura de la sección a la altura de la ventana del navegador */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.def, .sin, .causa {
+    text-align: center; /* Centra el contenido horizontalmente */
+    position: absolute;
+    /*top: 50%; /* Posiciona la parte superior de la sección en el centro vertical */
+    left: 50%; /* Posiciona la parte izquierda de la sección en el centro horizontal */
+    transform: translate(-50%, -50%); /* Centra la sección completamente */
+}
+
+.definicion h2, .sintomas h2, .causas h2 {
+    font-size: 25px;
+    margin: auto;
+}
+
+.definicion p, .sintomas p, .causas p {
+    text-align: justify;
+}
+
+/* Estilos para el contenedor del carrusel */
+.carousel-container {
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Estilos para las imágenes */
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.carousel-images img {
+    width: 300px;
+    height: 200px;
+}
+
+/* Estilos para los botones */
+.carousel-buttons {
+    text-align: center;
+}
+
+.carousel-buttons button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.enfermedades {
+    text-align: center;
+    /*margin: 20px auto;*/
+    /*max-width: 800px;*/
+    background-color: #84A98C;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffa600;
+}
+
+.enfermedad-section {
+    text-align: center;
+    /*margin: 20px auto;*/
+    /*max-width: 800px;*/
+    background-color: #84A98C;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
